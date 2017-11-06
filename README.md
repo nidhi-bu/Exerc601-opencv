@@ -10,7 +10,9 @@ assignment for opencv - EC601
      (ii) After conversion the program splits the converted image to its components or channels using Mat vector input_planes. The BGR image is split into Blue, Red and Green components. The YcrCb image is split into Y(luminance) and Cr and Cb (the chrominance values). The HSV image is split into its Hue, Saturation and Value images.
      (iii) The converted images are stored as Mat objects and displayed separately.
  2) [248 255 255]  -  BGR
+ 
     [ 30   7 255]  -  HSV
+ 
     [ 30   7 255]  -  YCrCb
     
  
