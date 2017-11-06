@@ -16,3 +16,5 @@ assignment for opencv - EC601
     [ 30   7 255]  -  YCrCb
     
  
+ 6.1 EXERCISE 3
+   1) 
