@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 
 img1 = cv2.imread('HappyFish.jpg')
+print(img1[20, 25])
 b,g,r = cv2.split(img1)
 
 cv2.imwrite('blue_channel.jpg', b)
@@ -14,6 +15,7 @@ cv2.imshow('red', r)
 
 # Convert BGR to HSV
 hsv_img = cv2.cvtColor(img1, cv2.COLOR_BGR2HSV)
+print(hsv_img[20, 25])
 h,s,v = cv2.split(hsv_img)
 
 cv2.imwrite('hue.jpg', h)
@@ -26,6 +28,7 @@ cv2.imshow('value', v)
 
 #Convert BGR to Ycrcb
 ycrcb_img = cv2.cvtColor(img1, cv2.COLOR_BGR2HSV)
+print(ycrcb_img[20, 25])
 y,cr,cb = cv2.split(ycrcb_img)
 
 cv2.imwrite('Y.jpg', y)
