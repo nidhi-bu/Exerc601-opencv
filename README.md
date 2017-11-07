@@ -75,6 +75,6 @@ images that have been worked on are contained in **Source-images** folder
  
  
    1) Observing the output images for the different threshold types, we see that Adaptive Thresholding conserves the maximum amount of data from the original image. Semi Threshold looses most data from the original representation. The order of performance in respect of conserving most data of the original is Adaptive > Binary > Band > Semi
-   2) Though binary thresholding the next in terms of preserving original image information, it lacks in preserving the small changes in pixel values and thus leads to over darkening of certain regions. 
+   2) Though binary thresholding the next in terms of preserving original image information, it lacks in preserving the very small or very large changes in pixel values and thus leads to over darkening of certain regions. For example, it leads to complete darkening of the top-right part of fruits.jpg where there is large changes in pixel values in neighbouring pixels.
    3) Adaptive thresholding is useful when the pixel value changes of neighbouring pixels are very small and there are chances that such small changes will be lost with ordinary thresholding. In such cases Adaptive threshold can be used and manipulated to retain the most amount of information of the original image and give as accurate a representation of the image as possible.
    
