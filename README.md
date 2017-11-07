@@ -3,7 +3,7 @@ assignment for opencv - EC601
 images that have been worked on are contained in **Source-images** folder
 
 4.1 EXERCISE 1
-**Running ColorImage.py on HappyFish.jpg
+**Running ColorImage.py on HappyFish.jpg**
 
   1) The cvMat object is read in the order of row and then coloumn. This implies that when acessing pixels, the y coordinate is read first and then the x coordinate. (y,x)
   
@@ -51,7 +51,7 @@ images that have been worked on are contained in **Source-images** folder
     
  
  6.1 EXERCISE 3
-  **Running Noise.py on HappyFish.jpg
+  **Running Noise.py on HappyFish.jpg**
   
    1) On running the program, the values of noise for different mean, sigma values and pa, pb values will get printed. 
    2) As the size of the kernel increases, the 'blur' of the image also increases. Thus, smaller kernel gives lower error.
@@ -60,7 +60,7 @@ images that have been worked on are contained in **Source-images** folder
    
  7.1 EXERCISE 4
  
- **Running Threshold.py on fruits.jpg
+ **Running Threshold.py on fruits.jpg**
  
 | Original 			| Threshold 			| Binary Threshold 	|
 |:-----------------:|:---------------------:|:-----------------:|
