@@ -15,6 +15,7 @@ images that have been worked on are contained in **Source-images** folder
      (iii) The converted images are stored as Mat objects and displayed separately.
      
     **Implemented the ColorImage on python using HappyFish.jpg and saved images in folder**
+    
       
    | Blue 				| Green 			  	| Red 				|
 |:-----------------:|:---------------------:|:-----------------:|
