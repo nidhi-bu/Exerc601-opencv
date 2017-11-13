@@ -78,3 +78,6 @@ images that have been worked on are contained in **Source-images** folder
    2) Though binary thresholding the next in terms of preserving original image information, it lacks in preserving the very small or very large changes in pixel values and thus leads to over darkening of certain regions. For example, it leads to complete darkening of the top-right part of fruits.jpg where there is large changes in pixel values in neighbouring pixels.
    3) Adaptive thresholding is useful when the pixel value changes of neighbouring pixels are very small and there are chances that such small changes will be lost with ordinary thresholding. In such cases Adaptive threshold can be used and manipulated to retain the most amount of information of the original image and give as accurate a representation of the image as possible.
    
+**Template matching exercise:** 
+Completed. 
+![green](/matched.jpg)
